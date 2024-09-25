@@ -1,0 +1,128 @@
+/* Dashboard.css */
+.Dashboard{
+ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 10px;
+  padding: 16px;
+  width: 40%;
+
+}
+
+.grid-item {
+  background-color: #4202a9;
+  padding: 20px;
+  color: white;
+  font-size: 30px;
+ 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  /* font-Family: "'Dancing Script', cursive";
+  font-style: oblique; */
+}
+.sub{
+  /* font-Family: "'Dancing Script', cursive";
+  font-style: oblique; */
+  font-weight: 1000;
+  font-size: 18px;
+}
+.Verticle-news{
+  width: 40%;
+  height: 100px;
+  background-color: rgb(239 68 68);
+  border-radius: 8px;
+  overflow: hidden;
+}
+.Verticle-news marquee{
+width: 100%;
+height: 100px;
+
+}
+h3{
+  /* font-Family: "'Dancing Script', cursive";
+  font-style: oblique; */
+  color: white;
+  line-height: 1;
+  text-align: center;
+
+ 
+
+}
+h2{
+  /* font-Family: "'Dancing Script', cursive";
+  font-style: oblique; */
+  color: white;
+  line-height: 1;
+margin-top: 4px;
+ 
+
+}
+
+.Horizontal-news{
+  width: 40%;
+  margin-top: 10px;
+  height: 30px;
+  background-color: rgb(239 68 68);
+  border-radius: 8px;
+}
+.Horizontal-news marquee {
+  display: inline-block;
+}
+.offer-item {
+  display: inline-block;
+  margin-right: 20px;
+  font-weight: 600; /* Adjust as needed */
+  font-size: 18px;
+  color: #ffffff;
+  white-space: nowrap; /* Ensure content stays in one line */
+}
+.logout{
+  background-color: rgb(55, 0, 255);
+  padding: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: white;
+  border-radius: 8px;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  font-size: 20px;
+}
+
+@media (max-width: 1080px) {
+  .grid-container {
+    width: 98%;
+    grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+  
+  }
+  .grid-item {
+   
+    font-size: 20px;
+ 
+  }
+  .Horizontal-news{
+    width: 98%;
+
+  }
+  .Verticle-news{
+    width: 98%;
+
+  }
+  .logout{
+   
+    top: 50px;
+right: 30px;
+  }
+  
+}

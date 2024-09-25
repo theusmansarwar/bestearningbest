@@ -1,0 +1,14 @@
+.paymentdetail{
+    width: 50%;
+    text-align: center;
+
+}
+.payment-div{
+
+text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+align-self: center;
+}

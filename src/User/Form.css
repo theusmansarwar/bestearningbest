@@ -1,0 +1,81 @@
+.Register{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  
+}
+
+
+form{
+
+    width: 60%;
+    margin: 0%;
+    padding: 0%;
+   
+}
+
+form input{
+   
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 90%;
+    border-style: none;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.24);
+}
+form input:focus{
+
+  outline-color: rgb(26, 192, 181);
+}
+form button{
+    padding: 10px;
+    width: 92%;
+    background-color: #f57224;
+    color: white;
+    border-style: none;
+}
+.Forgetpassword{
+    
+    text-align: left;
+    padding-left: 4%;
+    margin-top: -10px;
+    
+}
+.plan-list{
+    display: flex;
+    flex-direction: column;
+padding-left: 4%;
+padding-right: 4%;
+justify-content: center;
+align-items: center;
+align-content: center;
+}
+.register-plan-item{
+    padding: 10px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.24);
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.register-plans-item{
+    padding: 10px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.24);
+    margin-bottom: 20px;
+    cursor: pointer;
+    width: 98%;
+}
+
+  
+  .register-plans-item.selected {
+    border: 2px solid #007bff;  /* Highlight selected plan */
+    background-color: #f0f8ff;
+  }
+  
+  @media (max-width: 1080px) {
+    form{
+
+        width: 90%;
+        margin: 0%;
+        padding: 0%;
+       
+    }
+  }

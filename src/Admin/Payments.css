@@ -1,0 +1,26 @@
+.approve-btn {
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    background-color: gray;
+    transition: background-color 0.3s;
+    height: fit-content;
+    margin: auto;
+    width: 15%;
+    margin-left: 1%;
+    margin-right: 1%;
+    border-radius: 8px;
+  }
+  
+  .approve-btn.pending {
+    background-color: #8f8f8f;
+    color: white;
+  }
+  
+  .approve-btn.approved {
+    background-color: rgb(3, 197, 3);
+    color: white;
+
+  }
+  

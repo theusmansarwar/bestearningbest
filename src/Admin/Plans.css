@@ -1,0 +1,189 @@
+/* Common styles for the form and list items */
+
+.taskbtn, .create-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 4px;
+  }
+  
+  .taskbtn:hover, .create-btn:hover {
+    background-color: #0056b3;
+  }
+  .AddProductdiv{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .cancel-btn {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 95%;
+  }
+  
+  .cancel-btn:hover {
+    background-color: #c82333;
+  }
+  
+  .submit-btn {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 95%;
+    margin: 10px;
+  }
+  
+  .submit-btn:hover {
+    background-color: #218838;
+  }
+  
+  .plans-list, .tasks-list, .bonuses-list {
+  
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .plan-item, .task-item, .bonus-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    padding-top:2px;
+    padding-bottom: 2px;
+  display: flex;
+  justify-content: center;
+    border-radius: 4px;
+    margin-top: 10px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.24);
+    width: 90%;
+  }
+  
+  .action-area {
+  width: 10%;
+ 
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  gap: 5%;
+  }
+  .leftside{
+    width: 90%;
+    display: flex;
+    gap: 5%;
+  
+    align-items: center;
+  }
+  .edit-icon{
+    cursor: pointer;
+    margin-right: 10px;
+
+  } .delete-icon {
+    cursor: pointer;
+    margin-right: 10px;
+    color: #dc3545;
+  }
+  
+  .edit-icon:hover, .delete-icon:hover {
+    color: #007bff;
+  }
+  .aprove-btn{
+    background-color: #28a745;
+ 
+    height: fit-content;
+    padding: 5px;
+    border-style: none;
+    color: white;
+    margin: auto;
+    width: 15%;
+    margin-left: 1%;
+    margin-right: 1%;
+  }
+  .website-item{
+    border: 1px solid #ddd;
+    padding: 10px;
+    padding-top:2px;
+    padding-bottom: 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+    border-radius: 4px;
+    margin-top: 10px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.24);
+    width: 100%;
+  }
+  .reward-item{
+    border: 1px solid #ddd;
+    padding: 10px;
+    padding-top:2px;
+    padding-bottom: 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+    border-radius: 4px;
+    margin-top: 10px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.24);
+    width: 80%;
+  } 
+  @media (max-width: 1080px) {
+
+    .submit-btn {
+     
+      margin: 0px;
+    }
+    .action-area {
+      width: 30%;
+     
+      justify-content: center;
+      display: flex;
+      align-items: center;
+      gap: 5%;
+      }
+      .leftside{
+        width: 70%;
+        display: flex;
+        gap: 5%;
+      
+        align-items: center;
+      }
+      .AddProductdiv{
+        margin-top: 100px;
+        width: 98%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+      }
+      .website-item{
+        border: 1px solid #ddd;
+        padding: 10px;
+        padding-top:2px;
+        padding-bottom: 2px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+        border-radius: 4px;
+        margin-top: 10px;
+        box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.24);
+        width: 94%;
+      }
+      .offer-area{
+        width: 50%;
+        background-color: #218838;
+      }
+
+  }
